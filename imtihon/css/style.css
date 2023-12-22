@@ -1,0 +1,714 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    max-width: 1440px;
+    margin: 0  auto;
+    padding: 0  20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+body{
+    background: #FAFAFA
+    
+}
+
+.qator-1{
+    height: 80px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.text-1 h2{
+color: var(--text-color, #252B42);
+/* font-family: Montserrat; */
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; 
+letter-spacing: 0.1px;
+
+    
+}
+.text-2{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+    align-items: center;
+    gap: 28px;
+}
+.nav-link{
+    color: #000;
+text-align: center;
+
+
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.2px;
+
+}
+/*main*/
+
+.qator-2{
+padding: 104px 0;
+}
+.text-3 h1{
+
+color: var(--text-color, #252B42);
+
+
+font-family: Montserrat;
+font-size: 58px;
+font-style: normal;
+letter-spacing: 0.2px;
+
+}
+.text-3 p{
+    padding: 10px;
+}
+.text-3 h1{
+
+    width: 509px;
+   
+    
+}
+.text-3 p{
+    width: 376px;
+    color: var(--second-text-color, #737373);
+
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; 
+letter-spacing: 0.2px;
+}
+.text-3  button{
+    border-radius: 37px;
+background: var(--primary-color, #FFA62B);
+padding: 10px 36px;
+}
+.text-3 button{
+    border-radius: 37px;
+border: 1px solid var(--secondary-color-1, #00A0C1);
+}
+.intro{
+    background-image: url(../imeg/people.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.qator-2{
+   /* width: 1440px;  */
+    height: 710px;
+ }
+.qator-3{
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: -100px;
+}
+.qator-3 .text-4{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px  9px  black;
+    background-color: white;
+ transition: 0.2s;
+}
+.qator-3 .text-4 svg{
+    fill:  #00A0C1;;
+}
+.qator-3 .text-4:hover svg{
+    color: #fff;
+}
+.qator-3 .text-4:hover{
+    background-color: #00A0C1;
+}
+.text-4 h3{
+    width: 213px;
+    height: 32px;
+    transition: 0.2s;
+}
+.qator-3 .text-4:hover h3{
+    color: white;
+}
+.text-4 p{
+    width: 218px;
+    height: 40px;
+    transition: .2s;
+}
+.qator-3  .text-4:hover p{
+    color: white;
+}
+.qator-3 .text-5{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px  9px  black;
+    background-color: white;
+    transition: 0.2s;
+
+    
+}
+.qator-3 .text-5:hover{
+    background-color: #00A0C1;
+}
+.text-5 h3{
+    width: 260px;
+    height: 32px;
+}
+.qator-3 .text-5:hover h3{
+    color: #fff;
+}
+
+.text-5 p{
+    width: 218px;
+    height: 40px;
+}
+.qator-3 .text-5:hover p{
+    color: #FFF;
+}
+.qator-3 .text-6{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px  9px  black;
+    background-color: #fff;
+    transition: 0.2s;
+
+}
+.qator-3 .text-6:hover{
+    background-color: #00A0C1;
+}
+.text-6 h3{
+    width: 222px;
+    height: 32px;
+}
+.qator-3 .text-6:hover h3{
+    color: #FFF;
+}
+.text-6 p{
+    width: 213px;
+    height: 40px;
+}
+.qator-3 .text-6:hover  p{
+    color: #fff;
+}
+.two .qator-3{
+    display: flex;
+    gap: 29px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.qator-3 .text-4 {
+    flex-basis: 328px;
+    padding: 35px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+.qator-3 .text-5{
+    flex-basis: 328px;
+    padding: 35px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+.qator-3 .text-6{
+    flex-basis: 328px;
+    padding: 35px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+.two .qator-3 svg{
+    fill: #00A0C1;
+
+}
+.qator-3 .text-6 svg{
+    fill: #00A0C1;
+}
+.two .qator-3:hover svg{
+    fill: #fff;
+}
+/*info*/
+.info_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 192px;
+}
+.info_text h1{
+    color: var(--text-color, #252B42);
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px; 
+letter-spacing: 0.2px;
+text-align: center;
+}
+.info_text p{
+    color: var(--second-text-color, #737373);
+text-align: center;
+
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+letter-spacing: 0.2px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 114px;
+
+}
+.cards{
+    display: flex;
+width: 230px;
+padding: 30px 40px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+background: #FFF;
+transition: all 0.5s;
+}
+.cards:hover{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/*contant*/
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rows h2{
+    color: var(--text-color, #252B42);
+text-align: center;
+
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px; 
+letter-spacing: 0.2px;
+}
+
+.rows p{
+    color: var(--second-text-color, #737373);
+text-align: center;
+
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+.column-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.column h5{
+    color: var(--text-color, #252B42);
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+letter-spacing: 0.1px;
+}
+.column p{
+    color: var(--second-text-color, #737373);
+text-align: center;
+    
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+}
+ .column{
+    display: flex;
+width: 232px;
+padding: 30px;
+flex-direction: column;
+align-items: flex-start;
+gap: 15px;
+background: #FFF;
+transition: all 0.5s;
+}
+
+.column-all{
+    display: flex;
+padding: 80px 0px;
+flex-direction: row;
+align-items: center;
+}
+.column-all .row{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+padding: 205px;
+}
+/*integar*/
+.cound{
+display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+.counds h2{
+    color: var(--text-color, #252B42);
+text-align: center;
+
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px; 
+letter-spacing: 0.2px;
+}
+.counds  p{
+    color: var(--second-text-color, #737373);
+text-align: center;
+
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+letter-spacing: 0.2px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0 0 0;
+}
+.nav-link--content h2{
+    color: var(--text-color, #252B42);
+
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px; 
+letter-spacing: 0.2px;
+}
+.nav-link--content p{
+    color: var(--second-text-color, #737373);
+text-align: center;
+
+
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+.nav-link--content p{
+    width: 511px;
+    height: 40px;
+    
+}
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.nav-link_box{
+    display: flex;
+}
+.nav-link_box img{
+    width: 32px;
+    height: 32px;
+}
+.nav-link_top{
+    display: flex;
+}
+.nav-link_top img{
+    width: 32px;
+height: 32px;
+}
+.nav-link--content{
+    padding: -300px;
+}
+/*name*/
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 215px;
+    gap: 50px;
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0px;
+    align-items: center;
+    gap: 30px;
+}
+.brands{
+    background: #FAFAFA;
+}
+.card-item{
+    display: flex;
+width: 1050px;
+padding: 30px 50px;
+flex-direction: row;
+align-items: flex-start;
+}
+.card-link h3{
+    width: 258px;
+    height: 64px;
+}
+/*footer*/
+.content-us{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 165px;
+  gap: 10px;
+}
+.content-user h2{
+    color: var(--text-color, #252B42);
+text-align: center;
+
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.2px;
+}
+.countent-user p{
+    color: var(--second-text-color, #737373);
+text-align: center;
+
+
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+letter-spacing: 0.2px;
+}
+.dark .darks{
+    display: flex;
+    width: 328px;
+    padding: 50px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.darks h6{
+    color: var(--text-color, #252B42);
+text-align: center;
+
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.2px;
+}
+.darksh5{
+    color: var(--text-color, #252B42);
+text-align: center;
+
+
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.1px;
+
+}
+
+
+.darks svg{
+    width: 72px;
+height: 72px;
+}
+.darks h6{
+    width: 221px;
+    height: 24px;
+    
+}
+.dark{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.dark .darks{
+    box-shadow: 3px  3px 9px  black;
+    background-color: #fff;
+    transition: 0.2s;
+}
+.dark .darks svg{
+    fill: #00A0C1;
+}
+.dark .darks:hover svg{
+    fill: #fff;
+}
+.dark .darks:hover{
+    background-color: #252B42;
+}
+.dark  .darks:hover h6{
+    color: #fff;
+    transition: 0.2s;
+}
+.dark  .darks:hover h5{
+    color: #fff;
+    transition: 0.2s;
+}
+.darks button{
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   
+}
+.darks button{
+border-radius: 5px;
+border: 1px solid var(--primary-color, #FFA62B);
+}
+.dark  .darks:hover button{
+background-color: #252B42;
+color: #fff;
+transition: 0.2s;
+}
+/*fill*/
+.car{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 308px;
+}
+.car{
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+.cars input{
+ display: flex;
+width: 1050px;
+height: 50px;
+padding: 12px 20px;
+align-items: center;
+gap: 10px;
+}
+.hoco-1 .hoco{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 50px;
+}
+
+
+.hoco button{
+border-radius: 5px;
+background: var(--primary-color, #FFA62B);
+}
+.hoco button{
+ display: inline-flex;
+padding: 15px 40px;
+justify-content: flex-end;
+align-items: center;
+gap: 10px;
+}
+/*futur*/
+.futur-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.futur-row h5{
+    color: var(--light-text-color, #FFF);
+
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.1px;
+}
+.futur-row li{
+    color: var(--light-text-color, #FFF);
+
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; 
+letter-spacing: 0.2px;
+}
+.futur-col{
+    background-color: #16697A;
+}
+.end-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+}
+.end-row p{
+   
+
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.2px;
+}
+.end-all .end-row p{
+    color: #000;
+}
+
+.end-all .end-row:hover p{
+    fill: #737373;
+}
+.imeg .rasm {
+    display: flex;
+    gap: 20px;
+}
+
+
+
